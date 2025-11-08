@@ -1,7 +1,8 @@
 ---
-date: '{{ .Date }}'
+autho: ""
+date: "{{ .Date }}"
 draft: true
-slug: '{{ .File.ContentBaseName }}'
+slug: "{{ .File.ContentBaseName }}"
 tags:
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 ---
