@@ -3,7 +3,7 @@ date: "2023-05-05T23:57:36+07:00"
 draft: false
 slug: "hello-world"
 tags: ["hugo", "note"]
-title: "Hello World"
+title: "Hello, World!"
 ---
 
 So, this is my nth attempt at blogging.
