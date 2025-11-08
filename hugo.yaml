@@ -1,0 +1,67 @@
+baseURL: https://anhtuhle.com/
+languageCode: en-us
+menus:
+  main:
+    - name: home
+      pageRef: /
+      weight: 10
+    - name: blog
+      pageRef: /posts
+      weight: 20
+    - name: reading
+      pageRef: /reading
+      weight: 25
+    - name: projects
+      pageRef: /projects
+      weight: 27
+    - name: about
+      pageRef: /about
+      weight: 30
+    - name: tags
+      pageRef: /tags
+      weight: 40
+module:
+  hugoVersion:
+    extended: false
+    min: 0.146.0
+related:
+  includeNewer: true
+  indices:
+    - applyFilter: false
+      cardinalityThreshold: 0
+      name: keywords
+      pattern: ""
+      toLower: false
+      type: basic
+      weight: 100
+    - applyFilter: false
+      cardinalityThreshold: 0
+      name: date
+      pattern: ""
+      toLower: false
+      type: basic
+      weight: 10
+    - applyFilter: false
+      cardinalityThreshold: 0
+      name: tags
+      pattern: ""
+      toLower: false
+      type: basic
+      weight: 80
+  threshold: 80
+  toLower: false
+title: anhtu's blog
+params:
+  description: some thoughts and notes by anhtu
+permalinks:
+  page:
+    posts: /:contentbasename/
+    reading: /:contentbasename/
+    projects: /:contentbasename/
+  section:
+    posts: /blog/
+    reading: /reading/
+  taxonomy:
+    tags: /tags/
+  term:
+    tags: /tags/:contentbasename/
