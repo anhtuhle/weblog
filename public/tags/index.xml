@@ -6,34 +6,20 @@
     <description>Recent content in Tags on anhtu&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Nov 2025 09:42:18 +0700</lastBuildDate>
+    <lastBuildDate>Fri, 05 May 2023 23:57:36 +0700</lastBuildDate>
     <atom:link href="https://anhtuhle.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Markdown</title>
-      <link>https://anhtuhle.com/tags/markdown/</link>
-      <pubDate>Fri, 07 Nov 2025 09:42:18 +0700</pubDate>
-      <guid>https://anhtuhle.com/tags/markdown/</guid>
+      <title>Hugo</title>
+      <link>https://anhtuhle.com/tags/hugo/</link>
+      <pubDate>Fri, 05 May 2023 23:57:36 +0700</pubDate>
+      <guid>https://anhtuhle.com/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
-      <title>Blue</title>
-      <link>https://anhtuhle.com/tags/blue/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://anhtuhle.com/tags/blue/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Green</title>
-      <link>https://anhtuhle.com/tags/green/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://anhtuhle.com/tags/green/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Red</title>
-      <link>https://anhtuhle.com/tags/red/</link>
-      <pubDate>Wed, 15 Mar 2023 11:00:00 -0700</pubDate>
-      <guid>https://anhtuhle.com/tags/red/</guid>
+      <title>Note</title>
+      <link>https://anhtuhle.com/tags/note/</link>
+      <pubDate>Fri, 05 May 2023 23:57:36 +0700</pubDate>
+      <guid>https://anhtuhle.com/tags/note/</guid>
       <description></description>
     </item>
   </channel>

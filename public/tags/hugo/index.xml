@@ -2,32 +2,18 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Hugo on anhtu&#39;s blog</title>
-    <link>http://localhost:1313/tags/hugo/</link>
+    <link>https://anhtuhle.com/tags/hugo/</link>
     <description>Recent content in Hugo on anhtu&#39;s blog</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 07 Nov 2025 13:16:51 +0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 05 May 2023 23:57:36 +0700</lastBuildDate>
+    <atom:link href="https://anhtuhle.com/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>My New Post 2</title>
-      <link>http://localhost:1313/my-new-post-2/</link>
-      <pubDate>Fri, 07 Nov 2025 13:16:51 +0700</pubDate>
-      <guid>http://localhost:1313/my-new-post-2/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>My New Post</title>
-      <link>http://localhost:1313/my-new-post/</link>
-      <pubDate>Fri, 07 Nov 2025 13:15:36 +0700</pubDate>
-      <guid>http://localhost:1313/my-new-post/</guid>
-      <description>&lt;p&gt;hi&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Tiêu đề tiếng Việt thứ hai</title>
-      <link>http://localhost:1313/bai-moi/</link>
-      <pubDate>Fri, 07 Nov 2025 10:08:07 +0700</pubDate>
-      <guid>http://localhost:1313/bai-moi/</guid>
-      <description>&lt;p&gt;Culpa mollit duis irure non ad deserunt. Veniam aliqua elit commodo occaecat ut est esse esse ex pariatur eiusmod ut. Eiusmod quis elit eiusmod in veniam est Lorem occaecat aute proident proident cupidatat id. Proident elit ipsum magna quis. Cupidatat laborum veniam aute magna ad sit qui deserunt.&lt;/p&gt;</description>
+      <title>Hello, World!</title>
+      <link>https://anhtuhle.com/hello-world/</link>
+      <pubDate>Fri, 05 May 2023 23:57:36 +0700</pubDate>
+      <guid>https://anhtuhle.com/hello-world/</guid>
+      <description>&lt;p&gt;So, this is my nth attempt at blogging.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
