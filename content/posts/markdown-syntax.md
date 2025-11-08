@@ -1,9 +1,8 @@
 ---
 date: "2025-11-07T09:42:18+07:00"
-draft: false
-slug: 'markdown-syntax'
-tags:
-- markdown
+draft: true
+slug: "markdown-syntax"
+tags: ["markdown"]
 title: "Markdown syntax"
 ---
 
