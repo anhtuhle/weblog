@@ -1,4 +1,7 @@
 baseURL: https://anhtuhle.com/
+caches:
+  images:
+    dir: :cacheDir/images
 languageCode: en-us
 menus:
   main:
