@@ -1,4 +1,12 @@
 {{ define "main" }}
+<section>
   <h1>{{ .Title }}</h1>
-  <p>{{ .Content }}</p>
+  {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }} {{
+  $dateHuman := .Date | time.Format ":date_long" }}
+
+  <aside>
+    <time datetime="{{ $dateMachine }}">{{ .Date.Format "2006-01-02" }} </time>
+  </aside>
+  {{ .Content }}
+</section>
 {{ end }}
