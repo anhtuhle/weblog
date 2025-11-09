@@ -37,7 +37,8 @@ Renders a menu for the given menu ID.
             {{- printf " %s=%q" $k $v | safeHTMLAttr }}
           {{- end }}
         {{- end -}}
-      ><h1>{{ $name }}</h1></a>
+      >
+      <h2>{{ $name }}</h2></a>
       {{- with .Children }}
           {{- partial "inline/menu/walk.html" (dict "page" $page "menuEntries" .) }}
       {{- end }}
