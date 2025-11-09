@@ -1,10 +1,14 @@
 ---
-author: ""
 date: "{{ .Date }}"
-draft: true
-rating:
+draft: false
+layout: book
+params:
+  author: ""
+  dateFinished: "{{ .Date }}"
+  genres:
+  rating: ""
 slug: "{{ .File.ContentBaseName }}"
-tags:
+tags: ["reading"]
 title: '{{ replace .File.ContentBaseName "-" " " | title }}'
 ---
 
