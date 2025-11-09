@@ -1,9 +1,7 @@
 {{ define "main" }}
 <section>
     <h1>{{ .Title }}</h1>
-
     {{ $dateMachine := .Date | time.Format "2006-01-02T15:04:05-07:00" }} {{ $dateHuman := .Date | time.Format ":date_long" }}
-
     <aside>
         <p><strong>author: </strong> {{ .Params.author }}</p>
         <p><strong>date finished: </strong>{{ .Params.dateFinished }}</p>
@@ -14,7 +12,6 @@
         {{ end }}
         <p><strong>rating: </strong>{{ .Params.rating}}</p>
     </aside>
-
     <article>
         {{ .Content }} {{ partial "terms.html" (dict "taxonomy" "tags" "page" .) }}
     </article>
