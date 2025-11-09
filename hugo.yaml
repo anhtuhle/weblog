@@ -13,16 +13,19 @@ menus:
       weight: 20
     - name: reading
       pageRef: /reading
-      weight: 25
+      weight: 30
+    - name: photos
+      pageRef: /photos
+      weight: 35
     - name: projects
       pageRef: /projects
-      weight: 27
+      weight: 37
     - name: about
       pageRef: /about
-      weight: 30
+      weight: 40
     - name: tags
       pageRef: /tags
-      weight: 40
+      weight: 50
 module:
   hugoVersion:
     extended: false
@@ -63,8 +66,5 @@ permalinks:
     projects: /:contentbasename/
   section:
     posts: /blog/
-    reading: /reading/
-  taxonomy:
-    tags: /tags/
   term:
     tags: /tags/:contentbasename/
