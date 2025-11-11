@@ -56,6 +56,10 @@ related:
       weight: 80
   threshold: 80
   toLower: false
+taxonomies:
+  category: categories
+  genre: genres
+  tag: tags
 title: anhtu's blog
 params:
   description: some thoughts and notes by anhtu
@@ -66,5 +70,10 @@ permalinks:
     projects: /:contentbasename/
   section:
     posts: /blog/
+    reading: /reading/
+  taxonomy:
+    genres: /genres/
+    tags: /tags/
   term:
+    genres: /reading/genres/:contentbasename/
     tags: /tags/:contentbasename/

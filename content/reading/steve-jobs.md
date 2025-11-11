@@ -11,7 +11,8 @@ params:
     - technology
   rating: "4/5"
 slug: "steve-jobs"
-tags: ["reading"]
+tags:
+  - reading
 title: "Steve Jobs"
 ---
 
