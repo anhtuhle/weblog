@@ -7,7 +7,10 @@
 
   <aside>
     <p><strong>author: </strong> {{ .Params.author }}</p>
-    <p><strong>date finished: </strong>{{ .Params.dateFinished }}</p>
+    <p>
+      <strong>date finished: </strong>{{ .Params.dateFinished | time.Format
+      "2006-01-02" }}
+    </p>
     {{ partial "terms.html" (dict "taxonomy" "genres" "page" .) }}
     <p><strong>rating: </strong>{{ .Params.rating}}</p>
   </aside>
