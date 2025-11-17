@@ -3,8 +3,7 @@
   <h1>{{ .Title | lower }}</h1>
   <p>
     {{ range .Data.Terms.Alphabetical }}
-    <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower }}</a>
-    <sup>{{ .Count }}</sup> {{ end }}
+    <a href="{{ .Page.Permalink }}">#{{ .Page.Title | lower }}</a><sup>{{ .Count }}</sup> {{ end }}
   </p>
 </section>
 {{ end }}
