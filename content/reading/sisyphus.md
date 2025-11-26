@@ -17,3 +17,5 @@ title: "The Myth of Sisyphus"
 ## Quotes
 
 > Ta phải tưởng tượng là Sisyphus hạnh phúc.
+
+- Albert Camus
